@@ -8,7 +8,7 @@ In this lab, we will create a honeypot in Azure and map each log in attempt to t
 
 - <b>PowerShell</b> 
 - <b>KQL</b>
-- <b>html</b>
+- <b>HTML</b>
 
 <h2>Requirements</h2>
 
@@ -34,15 +34,15 @@ Step 8 : Create custom log in LAW and filter based on parameters<br>
     -Create map of logs<br>
 
 <p></p>
-<p style="margin:0in;font-family:Calibri;font-size:11.0pt"><strong>Step 1</strong> - free account</p>
+<p style="margin:0in;font-family:Calibri;font-size:11.0pt;"><strong>Step 1 - free account</strong></p>
 <p style="margin:0in;font-family:Calibri;font-size:11.0pt">You can sign up for a free azure account by visiting <a href="https://azure.microsoft.com/en-gb/free">https://azure.microsoft.com/en-gb/free</a></p>
-<p style="margin:0in;font-family:Calibri;font-size:11.0pt"><strong>Step 2</strong> - Create a resource group</p>
+<p style="margin:0in;font-family:Calibri;font-size:11.0pt;"><strong>Step 2 - Create a resource group</strong></p>
 <p style="margin:0in;font-family:Calibri;font-size:11.0pt">After your account has been set up, click on the search bar and search &quot;resource groups&quot;, create a new resource group to be used during this project.</p><br>
 <p></p>
 <br/>
 <img src="https://i.imgur.com/PpDCMJj.png" height="80%" width="80%" />
 <p style="margin:0in;font-family:Calibri;font-size:11.0pt">Creating resource group</p>
-<p style="margin:0in;font-family:Calibri;font-size:11.0pt">Step 3 - create VM</p><br>
+<p style="margin:0in;font-family:Calibri;font-size:11.0pt;"><strong>Step 3 - Create VM</strong></p>
 <br/>
 <img src="https://i.imgur.com/s9YpkCm.png" height="80%" width="80%" />
 <p style="margin:0in;font-family:Calibri;font-size:11.0pt">Note: during initial testing, we had a DOS attack that knocked the server offline as we tried to use the minimum requirements. As a result we advise you use a minimum of 8GiB RAM to give your system a better response and slightly better resilience.</p>
