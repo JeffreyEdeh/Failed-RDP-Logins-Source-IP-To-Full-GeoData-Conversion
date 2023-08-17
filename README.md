@@ -1,6 +1,6 @@
 # Failed RDP Logins Source IP to full GeoData Conversion
 <h2>Description</h2>
-In this lab, we will create a honeypot in Azure and map each log in attempt to the location on the world map. We achieve this using a powershell shell script originally written by <a href= "https://github.com/joshmadakor1" > Joshmadakor</a>. A honeypot is a device intentionally exposed to the internet to entice attackers to attempt to log into the machine. This is usually done for research purposes - as in this case - and leaving a device is not advisable security practice.
+This lab explores creating a honeypot in Azure and mapping each failed log in attempt to the country of origin on the world map. We achieve this using a powershell shell script originally written by <a href= "https://github.com/joshmadakor1" > Joshmadakor</a>. A honeypot is a device intentionally exposed to the internet to entice attackers to attempt to log into the machine. This is usually done for research purposes - as in this case - and leaving a device is not advisable security practice.
 
 <br />
 
