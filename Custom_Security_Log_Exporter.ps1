@@ -1,4 +1,9 @@
-﻿# Get API key from here: https://ipgeolocation.io/
+#@author joshmadakor
+#Changed the sample logs to suit KQL as the extract funtion from LAW was not available to have be 
+#changed the function to write all the collected logs to file to allow for data maniplation using KQL 
+#
+#
+# Get API key from here: https://ipgeolocation.io/
 $API_KEY      = "9b3c1ddc0a0042978d29ece4d57eb4cf"
 $LOGFILE_NAME = "failed_rdp.log"
 $LOGFILE_PATH = "C:\ProgramData\$($LOGFILE_NAME)"
