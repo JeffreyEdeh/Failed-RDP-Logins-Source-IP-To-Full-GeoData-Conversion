@@ -1,5 +1,5 @@
 ﻿# Get API key from here: https://ipgeolocation.io/
-$API_KEY      = "d4600b4efdef42b39828f5155041a457"
+$API_KEY      = "9b3c1ddc0a0042978d29ece4d57eb4cf"
 $LOGFILE_NAME = "failed_rdp.log"
 $LOGFILE_PATH = "C:\ProgramData\$($LOGFILE_NAME)"
 
@@ -22,17 +22,17 @@ $XMLFilter = @'
     a destination host of "samplehost"
 #>
 Function write-Sample-Log() {
-    "latitude:47.91542,longitude:-120.60306,destinationhost:samplehost,username:fakeuser,sourcehost:24.16.97.222,state:Washington,country:United States,label:United States - 24.16.97.222,timestamp:2021-10-26 03:28:29" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:-22.90906,longitude:-47.06455,destinationhost:samplehost,username:lnwbaq,sourcehost:20.195.228.49,state:Sao Paulo,country:Brazil,label:Brazil - 20.195.228.49,timestamp:2021-10-26 05:46:20" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:52.37022,longitude:4.89517,destinationhost:samplehost,username:CSNYDER,sourcehost:89.248.165.74,state:North Holland,country:Netherlands,label:Netherlands - 89.248.165.74,timestamp:2021-10-26 06:12:56" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:40.71455,longitude:-74.00714,destinationhost:samplehost,username:ADMINISTRATOR,sourcehost:72.45.247.218,state:New York,country:United States,label:United States - 72.45.247.218,timestamp:2021-10-26 10:44:07" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:33.99762,longitude:-6.84737,destinationhost:samplehost,username:AZUREUSER,sourcehost:102.50.242.216,state:Rabat-Salé-Kénitra,country:Morocco,label:Morocco - 102.50.242.216,timestamp:2021-10-26 11:03:13" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:-5.32558,longitude:100.28595,destinationhost:samplehost,username:Test,sourcehost:42.1.62.34,state:Penang,country:Malaysia,label:Malaysia - 42.1.62.34,timestamp:2021-10-26 11:04:45" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:41.05722,longitude:28.84926,destinationhost:samplehost,username:AZUREUSER,sourcehost:176.235.196.111,state:Istanbul,country:Turkey,label:Turkey - 176.235.196.111,timestamp:2021-10-26 11:50:47" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:55.87925,longitude:37.54691,destinationhost:samplehost,username:Test,sourcehost:87.251.67.98,state:null,country:Russia,label:Russia - 87.251.67.98,timestamp:2021-10-26 12:13:45" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:52.37018,longitude:4.87324,destinationhost:samplehost,username:AZUREUSER,sourcehost:20.86.161.127,state:North Holland,country:Netherlands,label:Netherlands - 20.86.161.127,timestamp:2021-10-26 12:33:46" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:17.49163,longitude:-88.18704,destinationhost:samplehost,username:Test,sourcehost:45.227.254.8,state:null,country:Belize,label:Belize - 45.227.254.8,timestamp:2021-10-26 13:13:25" | Out-File $LOGFILE_PATH -Append -Encoding utf8
-    "latitude:-55.88802,longitude:37.65136,destinationhost:samplehost,username:Test,sourcehost:94.232.47.130,state:Central Federal District,country:Russia,label:Russia - 94.232.47.130,timestamp:2021-10-26 14:25:33" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=47.91542 longitude=-120.60306 destinationhost=samplehost username=fakeuser sourcehost=24.16.97.222 state=Washington country=United States label=United States - 24.16.97.222 timestamp=2021-10-26 03=28=29" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=-22.90906 longitude=-47.06455 destinationhost=samplehost username=lnwbaq sourcehost=20.195.228.49 state=Sao Paulo country=Brazil label=Brazil - 20.195.228.49 timestamp=2021-10-26 05=46=20" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=52.37022 longitude=4.89517 destinationhost=samplehost username=CSNYDER sourcehost=89.248.165.74 state=North Holland country=Netherlands label=Netherlands - 89.248.165.74 timestamp=2021-10-26 06=12=56" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=40.71455 longitude=-74.00714 destinationhost=samplehost username=ADMINISTRATOR sourcehost=72.45.247.218 state=New York country=United States label=United States - 72.45.247.218 timestamp=2021-10-26 10=44=07" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=33.99762 longitude=-6.84737 destinationhost=samplehost username=AZUREUSER sourcehost=102.50.242.216 state=Rabat-Salé-Kénitra country=Morocco label=Morocco - 102.50.242.216 timestamp=2021-10-26 11=03=13" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=-5.32558 longitude=100.28595 destinationhost=samplehost username=Test sourcehost=42.1.62.34 state=Penang country=Malaysia label=Malaysia - 42.1.62.34 timestamp=2021-10-26 11=04=45" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=41.05722 longitude=28.84926 destinationhost=samplehost username=AZUREUSER sourcehost=176.235.196.111 state=Istanbul country=Turkey label=Turkey - 176.235.196.111 timestamp=2021-10-26 11=50=47" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=55.87925 longitude=37.54691 destinationhost=samplehost username=Test sourcehost=87.251.67.98 state=null country=Russia label=Russia - 87.251.67.98 timestamp=2021-10-26 12=13=45" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=52.37018 longitude=4.87324 destinationhost=samplehost username=AZUREUSER sourcehost=20.86.161.127 state=North Holland country=Netherlands label=Netherlands - 20.86.161.127 timestamp=2021-10-26 12=33=46" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=17.49163 longitude=-88.18704 destinationhost=samplehost username=Test sourcehost=45.227.254.8 state=null country=Belize label=Belize - 45.227.254.8 timestamp=2021-10-26 13=13=25" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+    "latitude=-55.88802 longitude=37.65136 destinationhost=samplehost username=Test sourcehost=94.232.47.130 state=Central Federal District country=Russia label=Russia - 94.232.47.130 timestamp=2021-10-26 14=25=33" | Out-File $LOGFILE_PATH -Append -Encoding utf8
 }
 
 # This block of code will create the log file if it doesn't already exist
@@ -125,9 +125,9 @@ while ($true)
 
                 # Write all gathered data to the custom log file. It will look something like this:
                 #
-                "latitude:$($latitude),longitude:$($longitude),destinationhost:$($destinationHost),username:$($username),sourcehost:$($sourceIp),state:$($state_prov), country:$($country),label:$($country) - $($sourceIp),timestamp:$($timestamp)" | Out-File $LOGFILE_PATH -Append -Encoding utf8
+                "latitude=$($latitude) longitude=$($longitude) destinationhost=$($destinationHost) username=$($username) sourcehost=$($sourceIp) state=$($state_prov)  country=$($country) label=$($country) - $($sourceIp) timestamp=$($timestamp)" | Out-File $LOGFILE_PATH -Append -Encoding utf8
 
-                Write-Host -BackgroundColor Black -ForegroundColor Magenta "latitude:$($latitude),longitude:$($longitude),destinationhost:$($destinationHost),username:$($username),sourcehost:$($sourceIp),state:$($state_prov),label:$($country) - $($sourceIp),timestamp:$($timestamp)"
+                Write-Host -BackgroundColor Black -ForegroundColor Magenta "latitude=$($latitude) longitude=$($longitude) destinationhost=$($destinationHost) username=$($username) sourcehost=$($sourceIp) state=$($state_prov) label=$($country) - $($sourceIp) timestamp=$($timestamp)"
             }
             else {
                 # Entry already exists in custom log file. Do nothing, optionally, remove the # from the line below for output
