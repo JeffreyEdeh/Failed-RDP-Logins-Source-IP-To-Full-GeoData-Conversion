@@ -1,9 +1,8 @@
 # Visualising Failed RDP Login Attempts On a World Map Using Source IP
 <h2>Description</h2>
-This lab explores creating a honeypot in Azure and mapping each failed login attempt to the country of origin on the world map. To gather the failed log in attempts in event viewer and write it to a text file, we will be using a powershell shell script originally written by <a href= "https://github.com/joshmadakor1" > Joshmadakor</a>. A honeypot is a device intentionally exposed to the internet to entice attackers to attempt to log into the machine. This is usually done for research purposes, to learn various tactiques used by attackers.
-
+This project explores creating a honeypot in Azure and mapping each failed login attempt to the country of origin on the world map. To gather the failed login attempts in the event viewer and write it to a text file, I have employed a powershell shell script originally written by <a href= "https://github.com/joshmadakor1" > Joshmadakor</a>. For the uninitiated, a honeypot is a device intentionally exposed to the internet to entice attackers to attempt to log into the machine. This is usually done for research purposes, to learn various tactics and techniques used by malicious actors.
+<p>For ease, the rest of this documentation has been written in the style of a tutorial.</p>
 <br />
-
 <h2>Languages</h2>
 
 - <b>PowerShell</b> 
